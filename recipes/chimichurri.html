@@ -6,38 +6,59 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,300;1,400&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
-      padding: 3rem;
-      font-family: 'Source Sans Pro', sans-serif;
-      background-color: #f6f6f6;
-      color: #333;
-      font-size: 1.2rem;
-      line-height: 1.8;
+        margin: 0;
+        padding: 3rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: #f6f6f6;
+        color: #333;
+        font-size: 1.2rem;
+        line-height: 1.8;
     }
     h1 {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     h2 {
-      font-size: 1.5rem;
-      margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
     ul, ol {
-      padding-left: 1.5rem;
+        padding-left: 1.5rem;
     }
     a {
-      color: #007acc;
-      text-decoration: none;
+        color: #007acc;
+        text-decoration: none;
     }
     a:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
     main {
-      padding-left: 3rem;
-      padding-right: 50%;
+        padding-left: 3rem;
+        padding-right: 50%;
+    }
+    .ingredients {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.3rem;
+        line-height: 1.8;
+    }
+    .instructions {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+    .instructions strong {
+        font-family: 'IBM Plex Serif', serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4em;
+        color: #222;
     }
   </style>
 </head>
@@ -46,7 +67,7 @@
     <h1>Drew’s Chimichurri</h1>
 
     <h2>Ingredients</h2>
-    <ul>
+    <ul class="ingredients">
       <li>1 cup minced cilantro (including some stems)</li>
       <li>1/2 cup minced parsley (no stems)</li>
       <li>Pinch of red pepper flakes</li>
@@ -55,19 +76,20 @@
       <li>1.5 tsp dried oregano</li>
       <li>1/2 tsp salt</li>
       <li>1/4 cup red wine vinegar</li>
-      <li>3 cloves garlic, grated</li>
+      <li>3 cloves grated garlic</li>
       <li>1/4 cup finely minced shallot or red onion</li>
-      <li>1 Tbsp turbinado sugar (or other raw sugar)</li>
+      <li>1 Tbsp turbinado or other raw sugar</li>
       <li>Olive oil (to desired consistency)</li>
     </ul>
 
     <h2>Instructions</h2>
-    <ol>
-      <li>Start by mixing the grated garlic and lime juice together in a bowl.</li>
-      <li>Mince the cilantro and parsley and add them to the bowl.</li>
-      <li>Add red pepper flakes, cumin, oregano, and salt. Stir to combine.</li>
-      <li>Add the red wine vinegar, shallot or red onion, and enough olive oil to create a loose sauce.</li>
-      <li>Stir in the turbinado sugar and adjust to taste.</li>
+    <ol class="instructions">
+      <li><strong>Start with garlic and lime juice</strong> in a bowl.</li>
+      <li><strong>Mince the herbs</strong> (cilantro and parsley) and add to the bowl.</li>
+      <li><strong>Add the red pepper flakes, cumin, oregano, and salt.</strong></li>
+      <li><strong>Pour in red wine vinegar</strong> and mix well.</li>
+      <li><strong>Add shallot/onion and olive oil</strong> to reach desired consistency.</li>
+      <li><strong>Stir in sugar</strong> and adjust to taste.</li>
     </ol>
     <p><a href="../index.html">Back to homepage</a></p>
   </main>
