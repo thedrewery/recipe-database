@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>33rd St Pesto</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,300;1,400&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+body {
+    margin: 0;
+    padding: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-left: 3rem;
+    padding-right: 50%;
+}
+
+.ingredients {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+.instructions {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.instructions strong {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4em;
+    color: #222;
+}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>33rd St Pesto</h1>
+
+    <h2>Ingredients:</h2>
+    <ul class="ingredients">
+      <li>~4 oz basil (1 large bunch)</li>
+      <li>1/2 bunch cilantro</li>
+      <li>3 large cloves garlic, minced</li>
+      <li>1/2 cup pine nuts</li>
+      <li>1 cup grated Parmigiano Reggiano</li>
+      <li>~1/2 cup olive oil</li>
+      <li>1 teaspoon sugar (optional)</li>
+      <li>Juice of 1/2 lemon</li>
+      <li>1/4 teaspoon salt</li>
+      <li>Freshly ground black pepper, to taste</li>
+    </ul>
+
+    <h2>Instructions:</h2>
+    <ol class="instructions">
+      <li><strong>Prep the herbs:</strong> Remove leaves from stems of both basil and cilantro. Wash and dry thoroughly in a salad spinner.</li>
+      <li><strong>Load the processor:</strong> Add basil and cilantro leaves to a food processor and weigh them down with garlic, pine nuts, and cheese.</li>
+      <li><strong>Add liquids:</strong> Pour in olive oil and lemon juice, then season with salt, pepper, and optional sugar.</li>
+      <li><strong>Blend:</strong> Process until smooth and creamy, scraping down sides as needed.</li>
+      <li><strong>Store:</strong> Transfer to a jar and top with a thin layer of olive oil for best storage.</li>
+    </ol>
+
+    <p><a href="../index.html">Back to homepage</a></p>
+  </main>
+</body>
+</html>
